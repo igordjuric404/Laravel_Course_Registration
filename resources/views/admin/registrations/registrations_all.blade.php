@@ -44,8 +44,7 @@
                         <th>Adresa</th>
                         <th>Datum</th>
                         <th>Kurs</th>
-                        <th>Status</th>
-                        <th>Promena Statusa</th>
+                        <th colspan="2" style="text-align: center">Promena statusa</th>
                         <th>Brisanje</th>
                     </tr>
                 </thead>
@@ -74,7 +73,7 @@
                                 @endif
                             </td>
                             <td style="vertical-align:middle">
-                                <a class="btn btn-primary btn-block font-weight-bold py-1" type="submit" href="{{ route('registration-single', [ 'id' => $registration->id ]) }}">Promeni status</a>
+                                <a class="btn btn-primary btn-block font-weight-bold py-1" type="submit" href="{{ route('registration-single', [ 'id' => $registration->id ]) }}">Promena</a>
                             </td>
                             <td style="vertical-align:middle">
                                 <a class="btn btn-primary btn-block font-weight-bold py-1" type="submit" href="{{ route('registration-delete', [ 'id' => $registration->id ]) }}">Obriši</a>

@@ -17,7 +17,7 @@ class RegistrationSeeder extends Seeder
         $r1->name_surname = 'Igor Djuric';
         $r1->email = 'igor_djuric@gmail.com';
         $r1->phone = '0691111111';
-        $r1->address = 'Branka Momirova 10b';
+        $r1->address = 'Krmača';
         $r1->date = '24/8/2023';
         $r1->course_id = '1';
         $r1->status = '1';
